@@ -1,0 +1,7 @@
+"""Main entry point for running bpm_detector as a module (python -m bpm_detector)."""
+
+import sys
+from .cli import main
+
+if __name__ == "__main__":
+    sys.exit(main())
